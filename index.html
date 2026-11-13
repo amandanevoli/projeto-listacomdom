@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Explorador de Filmes e Séries</title>
+
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Imagem">
+        <h1>EXPLORADOR DE FILMES E SÉRIES</h1>
+    </header>
+
+    <main>
+
+        <section class="cadastro">
+
+            <h2>REGISTRAR FILME/SÉRIE</h2>
+            <input
+                type="text"
+                id="genero"
+                placeholder="Gênero"
+            >
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Nome do Filme/Série"
+            >
+
+            <input
+                type="text"
+                id="imagem"
+                placeholder="URL da Imagem"
+            >
+
+            <button id="Cadastrar">
+                Confirmar
+            </button>
+
+        </section>
+
+        <section class="registros">
+
+            <div class="titulo-lista">
+                FILMES E SÉRIES REGISTRADOS
+            </div>
+
+            <div id="listaFilmes"></div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        © 2026 - Desenvolvido por alunos do curso de Informática para Internet. Todos os direitos reservados.
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
